@@ -1,0 +1,22 @@
+# initialize repoistory
+git init # creates .git direcotry telling git that this folder is git repo
+
+create or modify files 
+
+
+git add <filename> # moves from working directory to staging area
+
+git commit -m "any informative message about chanegs you made" # makes sure your changes are updated in .git directory
+
+# if this is a new repo
+
+git add remote origin <repo details>
+
+After linking remote github repo you can push your changes from local repo to remote
+
+git push origin <branch name>
+
+
+#other useful commands
+- git status
+- git log
