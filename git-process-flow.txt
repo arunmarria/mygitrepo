@@ -20,3 +20,5 @@ git push origin <branch name>
 #other useful commands
 - git status
 - git log
+- git diff HEAD (HEAD~1) to get difference from latest version to specified version head denotes latest and head~1 denotes second last
+- git reset --hard #discards local changes
